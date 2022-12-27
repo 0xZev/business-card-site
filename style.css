@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F0F46;
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 45px auto;
+    width: 330px;
+    background-color: #03010A;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.info-image {
+    margin-top: 15px;
+    width: 305px;
+    height: 310px;
+}
+
+.header-container{
+    text-align: center;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.header-title {
+    margin-top: 6.2px;
+    font-weight: bold;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #950BE4;
+    margin-bottom: 0;
+}
+
+.header-text {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.header-bttn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 18px 50px 0px 50px;
+    width: 230px;
+    padding: 3px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.main-container {
+    padding: 25px 36px 0px 34px ;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+.main-firsttitle {
+    font-size: 17px;
+    line-height: 3;
+    color: #950BE4;
+    
+}
+
+.main-container > p {
+    font-size: 12px;
+    padding: 0;
+}
+
+.main-secondtitle {
+    color: #950BE4;
+    font-size: 17px;  
+    line-height: 3;  
+}
+
+
+.footer-container {
+    margin-top: 24px;
+    background-color: #1C0139;
+    height: 64px;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+        
+}
+
+.icons {
+    width: 28px;
+    
+}
